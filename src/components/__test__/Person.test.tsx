@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { Person } from './Person';
+import { Person } from '../Person';
 
 test('renders learn react link', () => {
     render(<Person name="test" />);

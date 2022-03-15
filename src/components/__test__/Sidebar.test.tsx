@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { SideBar } from './Sidebar';
+import { SideBar } from '../Sidebar';
 
 test('renders SideBar', () => {
     const items = [
