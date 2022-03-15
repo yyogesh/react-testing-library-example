@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Person } from '../Person';
 
-test('renders learn react link', () => {
+test('renders a name', () => {
     render(<Person name="test" />);
     const linkElement = screen.getByText(/Name is test/i);
     expect(linkElement).toBeInTheDocument();
